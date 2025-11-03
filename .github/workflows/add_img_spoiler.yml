@@ -28,7 +28,7 @@ jobs:
           python <<'EOF'
           from bs4 import BeautifulSoup
 
-          html_path = "SonityDocumentationChinese.html"
+          html_path = "documentation.html"
           with open(html_path, "r", encoding="utf-8") as f:
               soup = BeautifulSoup(f, "html.parser")
       
