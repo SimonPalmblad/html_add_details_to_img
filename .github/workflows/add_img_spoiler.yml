@@ -5,6 +5,9 @@ on:
     paths:
       - "documentation.html"  # Only run when this file changes
 
+permissions:
+  contents: write
+
 jobs:
   update-images:
     runs-on: ubuntu-latest
